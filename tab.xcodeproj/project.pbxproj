@@ -19,6 +19,16 @@
 		043CE08A1890E70A00280CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043CE0721890E70A00280CDA /* UIKit.framework */; };
 		043CE0921890E70A00280CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0901890E70A00280CDA /* InfoPlist.strings */; };
 		043CE0941890E70A00280CDA /* tabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0931890E70A00280CDA /* tabTests.m */; };
+		043CE0A21890E74000280CDA /* VCAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0A01890E74000280CDA /* VCAll.m */; };
+		043CE0A31890E74000280CDA /* VCAll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0A11890E74000280CDA /* VCAll.xib */; };
+		043CE0A71890E75100280CDA /* VCFav.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0A51890E75100280CDA /* VCFav.m */; };
+		043CE0A81890E75100280CDA /* VCFav.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0A61890E75100280CDA /* VCFav.xib */; };
+		043CE0AC1890E77800280CDA /* VCGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0AA1890E77800280CDA /* VCGet.m */; };
+		043CE0AD1890E77800280CDA /* VCGet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0AB1890E77800280CDA /* VCGet.xib */; };
+		043CE0B11890E78400280CDA /* VCNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0AF1890E78400280CDA /* VCNav.m */; };
+		043CE0B21890E78400280CDA /* VCNav.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0B01890E78400280CDA /* VCNav.xib */; };
+		043CE0B61890E79100280CDA /* VCTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE0B41890E79100280CDA /* VCTab.m */; };
+		043CE0B71890E79100280CDA /* VCTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CE0B51890E79100280CDA /* VCTab.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		043CE08F1890E70A00280CDA /* tabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tabTests-Info.plist"; sourceTree = "<group>"; };
 		043CE0911890E70A00280CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043CE0931890E70A00280CDA /* tabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabTests.m; sourceTree = "<group>"; };
+		043CE09F1890E74000280CDA /* VCAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCAll.h; path = ViewControllers/VCAll.h; sourceTree = "<group>"; };
+		043CE0A01890E74000280CDA /* VCAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCAll.m; path = ViewControllers/VCAll.m; sourceTree = "<group>"; };
+		043CE0A11890E74000280CDA /* VCAll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCAll.xib; path = ViewControllers/VCAll.xib; sourceTree = "<group>"; };
+		043CE0A41890E75100280CDA /* VCFav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCFav.h; path = ViewControllers/VCFav.h; sourceTree = "<group>"; };
+		043CE0A51890E75100280CDA /* VCFav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCFav.m; path = ViewControllers/VCFav.m; sourceTree = "<group>"; };
+		043CE0A61890E75100280CDA /* VCFav.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCFav.xib; path = ViewControllers/VCFav.xib; sourceTree = "<group>"; };
+		043CE0A91890E77800280CDA /* VCGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCGet.h; path = ViewControllers/VCGet.h; sourceTree = "<group>"; };
+		043CE0AA1890E77800280CDA /* VCGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCGet.m; path = ViewControllers/VCGet.m; sourceTree = "<group>"; };
+		043CE0AB1890E77800280CDA /* VCGet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCGet.xib; path = ViewControllers/VCGet.xib; sourceTree = "<group>"; };
+		043CE0AE1890E78400280CDA /* VCNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCNav.h; path = ViewControllers/VCNav.h; sourceTree = "<group>"; };
+		043CE0AF1890E78400280CDA /* VCNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCNav.m; path = ViewControllers/VCNav.m; sourceTree = "<group>"; };
+		043CE0B01890E78400280CDA /* VCNav.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCNav.xib; path = ViewControllers/VCNav.xib; sourceTree = "<group>"; };
+		043CE0B31890E79100280CDA /* VCTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCTab.h; path = ViewControllers/VCTab.h; sourceTree = "<group>"; };
+		043CE0B41890E79100280CDA /* VCTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCTab.m; path = ViewControllers/VCTab.m; sourceTree = "<group>"; };
+		043CE0B51890E79100280CDA /* VCTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCTab.xib; path = ViewControllers/VCTab.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +132,8 @@
 		043CE0741890E70A00280CDA /* tab */ = {
 			isa = PBXGroup;
 			children = (
+				043CE09E1890E72500280CDA /* ViewControllers */,
+				043CE09D1890E72000280CDA /* Classes */,
 				043CE07D1890E70A00280CDA /* AppDelegate.h */,
 				043CE07E1890E70A00280CDA /* AppDelegate.m */,
 				043CE0801890E70A00280CDA /* Images.xcassets */,
@@ -142,6 +169,35 @@
 				043CE0901890E70A00280CDA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043CE09D1890E72000280CDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		043CE09E1890E72500280CDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				043CE09F1890E74000280CDA /* VCAll.h */,
+				043CE0A01890E74000280CDA /* VCAll.m */,
+				043CE0A11890E74000280CDA /* VCAll.xib */,
+				043CE0A41890E75100280CDA /* VCFav.h */,
+				043CE0A51890E75100280CDA /* VCFav.m */,
+				043CE0A61890E75100280CDA /* VCFav.xib */,
+				043CE0A91890E77800280CDA /* VCGet.h */,
+				043CE0AA1890E77800280CDA /* VCGet.m */,
+				043CE0AB1890E77800280CDA /* VCGet.xib */,
+				043CE0AE1890E78400280CDA /* VCNav.h */,
+				043CE0AF1890E78400280CDA /* VCNav.m */,
+				043CE0B01890E78400280CDA /* VCNav.xib */,
+				043CE0B31890E79100280CDA /* VCTab.h */,
+				043CE0B41890E79100280CDA /* VCTab.m */,
+				043CE0B51890E79100280CDA /* VCTab.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +275,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043CE0B21890E78400280CDA /* VCNav.xib in Resources */,
+				043CE0A81890E75100280CDA /* VCFav.xib in Resources */,
+				043CE0A31890E74000280CDA /* VCAll.xib in Resources */,
+				043CE0AD1890E77800280CDA /* VCGet.xib in Resources */,
 				043CE0791890E70A00280CDA /* InfoPlist.strings in Resources */,
 				043CE0811890E70A00280CDA /* Images.xcassets in Resources */,
+				043CE0B71890E79100280CDA /* VCTab.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043CE0B11890E78400280CDA /* VCNav.m in Sources */,
+				043CE0A71890E75100280CDA /* VCFav.m in Sources */,
+				043CE0A21890E74000280CDA /* VCAll.m in Sources */,
 				043CE07F1890E70A00280CDA /* AppDelegate.m in Sources */,
+				043CE0AC1890E77800280CDA /* VCGet.m in Sources */,
+				043CE0B61890E79100280CDA /* VCTab.m in Sources */,
 				043CE07B1890E70A00280CDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tab/tab-Prefix.pch";
 				INFOPLIST_FILE = "tab/tab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tab/tab-Prefix.pch";
 				INFOPLIST_FILE = "tab/tab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
